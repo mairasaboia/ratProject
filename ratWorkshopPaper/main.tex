@@ -1,13 +1,6 @@
 \documentclass[conference]{IEEEtran}
 \usepackage{blindtext, graphicx}
 
-% Add the compsoc option for Computer Society conferences.
-%
-% If IEEEtran.cls has not been installed into the LaTeX system files,
-% manually specify the path to it like:
-% \documentclass[conference]{../sty/IEEEtran}
-
-
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -19,22 +12,19 @@
 % can use linebreaks \\ within to get better formatting as desired
 \title{Biometric Patterns on Hooded Norway rats}
 
-
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Michael Shell}
-\IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-Georgia Institute of Technology\\
-Atlanta, Georgia 30332--0250\\
-Email: http://www.michaelshell.org/contact.html}
+\author{
+\IEEEauthorblockN{Nils Napp, Yifang Liu \\ and Maira Saboia}
+\IEEEauthorblockA{Department of  Computer Science and Engineering\\
+University at Buffalo}
 \and
-\IEEEauthorblockN{James Kirk\\ and Montgomery Scott}
-\IEEEauthorblockA{Starfleet Academy\\
-San Francisco, California 96678-2391\\
-Telephone: (800) 555--1212\\
-Fax: (888) 555--1212}}
+\IEEEauthorblockN{Matthew J. Paul}
+\IEEEauthorblockA{Department of Psychology\\ 
+University at Buffalo}
 
+}
 
 
 
@@ -151,14 +141,22 @@ selected 10 images that depict completly their hood patterns. Each image has dim
 \includegraphics[scale=0.9]{dataset/5.png}
 %\includegraphics{dataset/6.png}
 \includegraphics[scale=0.9]{dataset/7.png}
+\caption{Example of ...}
+%- show a set of images for different rats (we want to show the variance between rats and changes on the enviroment (eg. variation in illumination)
+
 \end{figure}
 
+\includegraphics[scale=0.9]{dataset/5.png}
+
+\begin{figure}[h]
+\caption{Example of ...}
+%- - show a set of images for the same rat and different views
+
+\end{figure}
 
 
 Description of the data, what criteria we used and how we selected them.
 
-- show a set of images for the same rat and different views
-- show a set of images for different rats (we want to show the variance between rats and changes on the enviroment (eg. variation in illumination)
 
 
 
@@ -189,5 +187,6 @@ The authors would like to thank...
 
 % that's all folks
 \end{document}
+
 
 
